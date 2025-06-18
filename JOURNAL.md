@@ -28,4 +28,4 @@ I'm planning on using the RP pico w, so I can have it host a webpage or somethin
 
 ### Other stuff
 
-I've begun to figure out which components I'm gonna use, most of which I'm ordering from (DigiKey)[https://www.digikey.com/en/mylists/list/VY0OA4IGPM], mainly cuz shipping is fast and cheap, even if the prices aren't the greatest. I'm planning on powering it using a ~~12v~~5v (i realised that the 170v boost convertor I'm using takes in 5v, not 12v 🤦) barrel jack, and I'm gonna use TPIC6B595N shift registers.
+I've begun to figure out which components I'm gonna use, most of which I'm ordering from [DigiKey](https://www.digikey.com/en/mylists/list/VY0OA4IGPM), mainly cuz shipping is fast and cheap, even if the component prices aren't the greatest. I'm planning on powering it using a ~~12v~~5v (i realised that the 170v boost convertor I'm using takes in 5v, not 12v 🤦) barrel jack, and I'm gonna use TPIC6B595N shift registers.
