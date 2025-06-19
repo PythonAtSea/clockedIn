@@ -18,3 +18,14 @@ I'm using the [TPIC6B595N](https://www.digikey.com/en/products/detail/texas-inst
 
 ![image](https://github.com/user-attachments/assets/033dcdc0-d627-43d1-bd5c-12e6d1fe89ee)
 i love not being able to read any of the text when i can see all of them
+
+## 6/17/25, 2 hours
+
+### MCU
+I'm planning on using the RP pico w, so I can have it host a webpage or something to control the clock. Still want the time to be set using GPS tho. 
+
+![image](https://github.com/user-attachments/assets/b6a79d47-9cf3-411d-b6b4-bb30019cf0c6)
+
+### Other stuff
+
+I've begun to figure out which components I'm gonna use, most of which I'm ordering from [DigiKey](https://www.digikey.com/en/mylists/list/VY0OA4IGPM), mainly cuz shipping is fast and cheap, even if the component prices aren't the greatest. I'm planning on powering it using a ~~12v~~5v (i realised that the 170v boost convertor I'm using takes in 5v, not 12v 🤦) barrel jack, and I'm gonna use TPIC6B595N shift registers.
