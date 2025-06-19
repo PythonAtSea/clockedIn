@@ -29,3 +29,14 @@ I'm planning on using the RP pico w, so I can have it host a webpage or somethin
 ### Other stuff
 
 I've begun to figure out which components I'm gonna use, most of which I'm ordering from [DigiKey](https://www.digikey.com/en/mylists/list/VY0OA4IGPM), mainly cuz shipping is fast and cheap, even if the component prices aren't the greatest. I'm planning on powering it using a ~~12v~~5v (i realised that the 170v boost convertor I'm using takes in 5v, not 12v 🤦) barrel jack, and I'm gonna use TPIC6B595N shift registers.
+
+## 6/19/25, 3 hours
+
+### Schematic "done"
+The schematic is kinda done, I'm planning on connecting the shift registers based on what makes sense geographically. I'm also still thinking about having colons be lit up, but I might just have them as part of the case.
+
+![image](https://github.com/user-attachments/assets/5fe4cd15-cf9e-4ee2-a8f1-a39183c45a95)
+![image](https://github.com/user-attachments/assets/d67abc03-793b-4bd6-b49b-0047ff64fbd7)
+![image](https://github.com/user-attachments/assets/11861b00-b1fd-4327-82b5-03dd8c1a08a0)
+
+
