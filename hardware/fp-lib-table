@@ -1,5 +1,6 @@
 (fp_lib_table
   (version 7)
-  (lib (name "nixie")(type "KiCad")(uri "C:/Users/Hudson/OneDrive/Documents/highway/ilovefreetrade/footprints/nixie")(options "")(descr ""))
   (lib (name "nixies-us")(type "Legacy")(uri "C:/Users/Hudson/OneDrive/Documents/highway/ilovefreetrade/footprints/nixie/nixies-us.mod")(options "")(descr ""))
+  (lib (name "TPIC6B595N")(type "KiCad")(uri "C:/Users/Hudson/OneDrive/Documents/highway/ilovefreetrade/footprints/TPIC6B595N")(options "")(descr ""))
+  (lib (name "NCH8200HV")(type "KiCad")(uri "C:/Users/Hudson/OneDrive/Documents/highway/ilovefreetrade/footprints/NCH8200HV.pretty")(options "")(descr ""))
 )
