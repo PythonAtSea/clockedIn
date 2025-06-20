@@ -1495,6 +1495,182 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "TPIC6B595N:TPIC6B595N"
 			(pin_names
 				(offset 1.016)
@@ -2610,6 +2786,12 @@
 		(uuid "21a55399-ea50-46af-bf50-fc841e4faf11")
 	)
 	(junction
+		(at 119.38 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2767e8e1-4123-4c9e-93a3-1c6e50960823")
+	)
+	(junction
 		(at 439.42 322.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2812,6 +2994,10 @@
 	(no_connect
 		(at 242.57 314.96)
 		(uuid "92672343-191d-4efa-80e4-31645150a936")
+	)
+	(no_connect
+		(at 135.89 240.03)
+		(uuid "9b2f64ef-1cbf-47e3-8f41-f0e60bb3d427")
 	)
 	(no_connect
 		(at 191.77 312.42)
@@ -3170,6 +3356,16 @@
 			(type default)
 		)
 		(uuid "38e04061-8dd0-494b-bb35-8e1f853c7368")
+	)
+	(wire
+		(pts
+			(xy 135.89 234.95) (xy 139.7 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a15e3e2-3e2d-4778-9cf3-9d50bee41bb0")
 	)
 	(wire
 		(pts
@@ -3660,6 +3856,16 @@
 			(type default)
 		)
 		(uuid "8335ef8e-a023-437c-a31b-0596a7b75081")
+	)
+	(wire
+		(pts
+			(xy 139.7 237.49) (xy 143.51 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84058a0e-ed45-4f62-8796-3a58f907946c")
 	)
 	(wire
 		(pts
@@ -4173,6 +4379,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 237.49) (xy 125.73 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6aba5d4-26d7-4e24-9825-c873c27af15e")
+	)
+	(wire
+		(pts
 			(xy 394.97 287.02) (xy 388.62 287.02)
 		)
 		(stroke
@@ -4520,6 +4736,16 @@
 			(type default)
 		)
 		(uuid "fdf97228-4f66-4208-a0f0-817b02938ab6")
+	)
+	(wire
+		(pts
+			(xy 139.7 234.95) (xy 139.7 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe8fe3ac-02d5-40ff-a9f3-8e02eb1e973c")
 	)
 	(wire
 		(pts
@@ -4933,7 +5159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 259.842 364.49 90)
 			(effects
 				(font
@@ -5347,6 +5573,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 130.81 237.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1630a2e4-d9bf-4528-a6e1-46d8610fd7e0")
+		(property "Reference" "SW1"
+			(at 130.81 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 130.81 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "500SSP3S1M6QEA:SW_500SSP3S1M6QEA"
+			(at 130.81 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 130.81 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5e43462c-e20b-4e60-bfbb-41a338f03af7")
+		)
+		(pin "1"
+			(uuid "e98074d2-4354-4de7-a6a4-80bb2ba506a6")
+		)
+		(pin "3"
+			(uuid "7ce2480e-65d8-4066-8e24-449ee0a29f92")
+		)
+		(instances
+			(project ""
+				(path "/9262f813-14b2-4086-b979-00b2efb6aed1"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 388.62 285.75 0)
 		(unit 1)
@@ -5440,7 +5737,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 249.682 364.49 0)
 			(effects
 				(font
@@ -5606,7 +5903,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 226.822 364.49 90)
 			(effects
 				(font
@@ -6338,7 +6635,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 74.422 364.49 90)
 			(effects
 				(font
@@ -6743,7 +7040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 183.642 364.49 90)
 			(effects
 				(font
@@ -7316,7 +7613,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 216.662 364.49 0)
 			(effects
 				(font
@@ -7655,7 +7952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 64.262 364.49 0)
 			(effects
 				(font
@@ -7755,7 +8052,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 140.462 364.49 0)
 			(effects
 				(font
@@ -8504,7 +8801,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NCH8200HV:NCH8200HV"
 			(at 156.21 233.68 0)
 			(effects
 				(font
@@ -8577,7 +8874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 150.622 364.49 90)
 			(effects
 				(font
@@ -8647,7 +8944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 107.442 364.49 90)
 			(effects
 				(font
@@ -8717,7 +9014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 97.282 364.49 0)
 			(effects
 				(font
@@ -9188,7 +9485,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "nixies-us_IN-12"
+		(property "Footprint" "nixies-us:nixies-us-IN-12-DSUB"
 			(at 173.482 364.49 0)
 			(effects
 				(font
