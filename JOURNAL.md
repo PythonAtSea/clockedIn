@@ -30,7 +30,7 @@ I'm planning on using the RP pico w, so I can have it host a webpage or somethin
 
 I've begun to figure out which components I'm gonna use, most of which I'm ordering from [DigiKey](https://www.digikey.com/en/mylists/list/VY0OA4IGPM), mainly cuz shipping is fast and cheap, even if the component prices aren't the greatest. I'm planning on powering it using a ~~12v~~5v (i realised that the 170v boost convertor I'm using takes in 5v, not 12v 🤦) barrel jack, and I'm gonna use TPIC6B595N shift registers.
 
-## 6/19/25, 3 hours
+## 6/19/25, 4 hours
 
 ### Schematic "done"
 The schematic is kinda done, I'm planning on connecting the shift registers based on what makes sense geographically. I'm also still thinking about having colons be lit up, but I might just have them as part of the case.
@@ -39,4 +39,10 @@ The schematic is kinda done, I'm planning on connecting the shift registers base
 ![image](https://github.com/user-attachments/assets/d67abc03-793b-4bd6-b49b-0047ff64fbd7)
 ![image](https://github.com/user-attachments/assets/11861b00-b1fd-4327-82b5-03dd8c1a08a0)
 
+### Handmade IN-12A/B footprint
+
+There doesn't seem to be a footprint for the IN-12 nixie tubes that isn't goofed in at least one way, being it lopsided or the holeds just not being in the right place 😭. I spent a absurd amount of time trying to find a good footprint but to no avail. I did, howver find a [translated version of the origional russian datasheet!](https://drive.google.com/file/d/1VCBgA3ZlsqFrKxp0Fkk9OuxMdr5gytET/view) I used a drawing in it to recreated the footprint in KiCad, which _should_ work. 
+
+![image](https://github.com/user-attachments/assets/2a3587e9-a686-442f-9aa5-3747e7689276)
+![image](https://github.com/user-attachments/assets/eee8e0d0-dc4a-4e6b-ab86-d7fe3986a4a7)
 
