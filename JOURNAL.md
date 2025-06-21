@@ -55,3 +55,11 @@ I spent like at least 45 minutes figuring out how kicad netclasses work :sob:
 Because the shift registers have 8 pins and the tubes have 11 cathodes, there isn't a quick and easy way to connect them in the schematic. Additionally, half the pins on the shift register are on one side and the other half are on the other side. So I can't really connect them in the schematic before I know how the PCB is gonna look. So, I position the shift registers next to the nixie tubes and figure out what connections I should make and go back to the schematic and make them! It takes a very long amount of time. ahhhh
 
 ![image](https://github.com/user-attachments/assets/9bc53001-0be1-4e97-98ce-b2a65380e6cb)
+
+## 6/21/25, 1 hour
+
+### More routing
+I routed the first 2 nixie tubes completely, it takes a bit ahhhhhhh. i feel like i should have more to say for a hours work but i don't really
+
+![image](https://github.com/user-attachments/assets/c04a1ba2-a7ff-46a1-bbae-15644bc25b1c)
+
