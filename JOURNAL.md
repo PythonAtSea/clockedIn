@@ -46,3 +46,12 @@ There doesn't seem to be a footprint for the IN-12 nixie tubes that isn't goofed
 ![image](https://github.com/user-attachments/assets/2a3587e9-a686-442f-9aa5-3747e7689276)
 ![image](https://github.com/user-attachments/assets/eee8e0d0-dc4a-4e6b-ab86-d7fe3986a4a7)
 
+## 6/20/25
+
+## Clearances
+I spent like at least 45 minutes figuring out how kicad netclasses work :sob:
+
+### idk what to call this
+Because the shift registers have 8 pins and the tubes have 11 cathodes, there isn't a quick and easy way to connect them in the schematic. Additionally, half the pins on the shift register are on one side and the other half are on the other side. So I can't really connect them in the schematic before I know how the PCB is gonna look. So, I position the shift registers next to the nixie tubes and figure out what connections I should make and go back to the schematic and make them! It takes a very long amount of time. ahhhh
+
+![image](https://github.com/user-attachments/assets/9bc53001-0be1-4e97-98ce-b2a65380e6cb)
