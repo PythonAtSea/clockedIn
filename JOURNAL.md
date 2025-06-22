@@ -56,10 +56,16 @@ Because the shift registers have 8 pins and the tubes have 11 cathodes, there is
 
 ![image](https://github.com/user-attachments/assets/9bc53001-0be1-4e97-98ce-b2a65380e6cb)
 
-## 6/21/25, 1 hour
+## 6/21/25, 3 hours
 
 ### More routing
 I routed the first 2 nixie tubes completely, it takes a bit ahhhhhhh. i feel like i should have more to say for a hours work but i don't really
 
 ![image](https://github.com/user-attachments/assets/c04a1ba2-a7ff-46a1-bbae-15644bc25b1c)
+
+### Routing "done"
+
+I've finished the first draft at routing for the nixie tubes, YAY!!!!
+
+![image](https://github.com/user-attachments/assets/71a51415-b572-45ed-a456-1bad6144b5e1)
 
