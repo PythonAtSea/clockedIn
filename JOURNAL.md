@@ -1,3 +1,10 @@
+---
+title: "ClockedIn"
+author: "pythonatsea"
+description: "GPS synced nixie tube clock"
+created_at: "2025-06-15"
+---
+
 # ClockedIn
 
 ## 6/15/25, 1 hour
