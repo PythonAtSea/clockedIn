@@ -76,3 +76,21 @@ I've finished the first draft at routing for the nixie tubes, YAY!!!!
 
 ![image](https://github.com/user-attachments/assets/71a51415-b572-45ed-a456-1bad6144b5e1)
 
+## 6/23/25, 4 hours
+
+### GPS Module
+
+I've decided to use this [adafruit GPS module](https://www.adafruit.com/product/746), mainly cuz it's easy to wire and has support for an external antenna, which I'll need since I'm planning on have a aluminum case (mainly cuz I have a weird desire for it to have some heft, y'know). I'm using [this antenna](https://www.adafruit.com/product/1858), as well as a [adapter](https://www.adafruit.com/product/851). The GPS module also has  RTC, which means I don't need a seperate module! The GPS modue connects with a simple 9pin 0.1" pitch header.
+
+![image](https://github.com/user-attachments/assets/89e400af-e558-48fa-9bed-80355d6b384a)
+
+
+### MCU
+
+I'm planning on using the [Waveshare RP2040-Tiny](https://www.waveshare.com/wiki/RP2040-Tiny) as the MCU, mainly cuz it's tiny. I did have to make a custom footprint for it, because the only one I could find was goofed. 
+
+![image](https://github.com/user-attachments/assets/8adc78be-5276-4445-9dff-d2bd14d31102)
+
+### Routing
+
+I did a bunch of routing with the shift registers and their data, latch, and clock lines.
