@@ -94,3 +94,19 @@ I'm planning on using the [Waveshare RP2040-Tiny](https://www.waveshare.com/wiki
 ### Routing
 
 I did a bunch of routing with the shift registers and their data, latch, and clock lines.
+
+## 6/24/25, 4 hours
+
+### Buttons
+
+I want a way to interect with the clock to disable all lighting for the night when I go to sleep (i'm very sensitive to light and noise when i'm sleeping), among other things. I'm planning to use 4 of these [stainless steel buttons](https://www.aliexpress.us/item/3256805624137497.html), mainly cuz they look _awesome!_
+
+### PCB Done!(ish)
+
+The pcb is "done", although I'm probably gonna realize a couple dozen mistakes I need to fix soon. It's quite large, but I can't find a better way to lay things out that would reduce the size in a meaningful way. I've put 4 M4 mounting holes in the corners, which I'm planning to connect to the case with standoffs.
+
+![image](https://github.com/user-attachments/assets/da6568bf-657f-4b80-8baa-0ae4950db564)
+
+### Case
+
+I'm planning to make the case out of a bunch of laser cut aluminum plates stacked and bolted together, mainly becuase I want it to have some weight.
