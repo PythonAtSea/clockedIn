@@ -17,7 +17,7 @@ Essentially a nixie tube clock with GPS syncronization. I also want to give it a
 
 Nixie tubes operate at 170v, I'm planning to use [this](https://omnixie.com/products/nch8200hv-nixie-hv-power-module?variant=36238768242855) and have a bunch of shift registers to actually drive them.
 
-## 6/16/25, X hours
+## 6/16/25, 2 hours
 
 ### Shift registers
 
@@ -110,3 +110,15 @@ The pcb is "done", although I'm probably gonna realize a couple dozen mistakes I
 ### Case
 
 I'm planning to make the case out of a bunch of laser cut aluminum plates stacked and bolted together, mainly becuase I want it to have some weight.
+
+## 7/2/2025, 5 hours
+
+### Case sillyness
+
+So it seems that a aluminum case is gonna be way, way too expensive! So first I tried just having a bent sheet metal stand, but I couldn't get fabworks to quote it, even though I spent like a long time on it ahhh. So I eventually settled on having a SLS 3d printed case from JLCPCB, which should have a nice finish and look better than a standard FDM print. 
+
+### Actual case work
+
+I'm gonna have the case made out of two parts, the main part and the front plate. The buttons will be mounted to the front plate, and the GPS antenna + the barrel jack will be mounted on the back. also i realize why cadding takes for my robotics team takes so long, you spend a _lot_ of time just staring at the screen thinking about what to do.
+
+![Part Studio 1](https://github.com/user-attachments/assets/8993a312-bb09-4dd8-a645-a2a5a7288714)
