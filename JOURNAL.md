@@ -122,3 +122,11 @@ So it seems that a aluminum case is gonna be way, way too expensive! So first I 
 I'm gonna have the case made out of two parts, the main part and the front plate. The buttons will be mounted to the front plate, and the GPS antenna + the barrel jack will be mounted on the back. also i realize why cadding takes for my robotics team takes so long, you spend a _lot_ of time just staring at the screen thinking about what to do.
 
 ![Part Studio 1](https://github.com/user-attachments/assets/8993a312-bb09-4dd8-a645-a2a5a7288714)
+
+## 7/6/2025, 1 hour
+
+### Case polishing
+
+I finished polishing the case and made a assembly of the case, the pcb, and the nixie tubes. I also cadded the screws, cuz not doing that can sometimes be....problematic (i definitly dont have previous experience with this causing issues...)
+
+![image](https://github.com/user-attachments/assets/418fe670-de07-4e16-8abe-e714681eea27)
